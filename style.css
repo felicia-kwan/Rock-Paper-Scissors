@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* 
+.section{
+    height: 100vh;
+} */
+
+.header {
+  margin-bottom: 30px;
+}
+
+.navbar {
+  display: flex;
+  margin-top: 20px;
+}
+
+.navbar {
+  justify-content: flex-end;
+}
+
+.navbar nav {
+  margin-right: 20px;
+}
+
+.navbar nav ul li {
+  display: inline-block;
+  padding: 20px;
+  list-style: none;
+  border: 1px solid black;
+}
+
+.navbar nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar .title h1 {
+  margin: 20px;
+}
+
+.navbar {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col-2 {
+  display: flex;
+  flex-basis: 50%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.small-container {
+  margin: auto;
+  max-width: 1080px;
+}
+
+#player1-scoreboard,
+#player2-scoreboard {
+  text-align: center;
+  margin: 30px 0;
+}
+
+#player1-choice {
+  transform: rotateY(180deg);
+}
+
+.col-3 {
+  display: flex;
+  flex-basis: 33%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.choices .col-3 img {
+  transform: rotateY(180deg);
+}
+
+.choices .col-3 {
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.choices .col-3 img {
+  padding-top: 25%;
+  padding-bottom: 25%;
+  display: inline block;
+}
+
+.choices .col-3:hover {
+  background-color: #d5e1df;
+  transform: translateY(-30px);
+  box-shadow: 0 30px 5px gray;
+}
+
+#play-choices {
+  margin-top: 5vh;
+}
+
+.label {
+  margin-bottom: 50px;
+}
+
+.label h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.one-player .result h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.green-glow {
+  background-color: #b4cfb0;
+}
+
+.red-glow {
+  background-color: #d57e7e;
+}
+
+.grey-glow {
+  background-color: #f7ecde;
+}
